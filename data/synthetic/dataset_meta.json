@@ -1,0 +1,470 @@
+{
+  "synthetic": true,
+  "seed": 42,
+  "n_events": 21863,
+  "n_employees": 24,
+  "start": "2026-03-02",
+  "train_end": "2026-04-06",
+  "val_end": "2026-04-16",
+  "n_malicious_events": 449,
+  "scenarios": [
+    {
+      "scenario_id": "SIM-001-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1014",
+      "day": 21,
+      "date": "2026-03-23"
+    },
+    {
+      "scenario_id": "SIM-002-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1004",
+      "day": 30,
+      "date": "2026-04-01"
+    },
+    {
+      "scenario_id": "SIM-003-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1012",
+      "day": 7,
+      "date": "2026-03-09"
+    },
+    {
+      "scenario_id": "SIM-004-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1014",
+      "day": 30,
+      "date": "2026-04-01"
+    },
+    {
+      "scenario_id": "SIM-005-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1006",
+      "day": 36,
+      "date": "2026-04-07"
+    },
+    {
+      "scenario_id": "SIM-006-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1004",
+      "day": 38,
+      "date": "2026-04-09"
+    },
+    {
+      "scenario_id": "SIM-007-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1006",
+      "day": 53,
+      "date": "2026-04-24"
+    },
+    {
+      "scenario_id": "SIM-008-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1006",
+      "day": 49,
+      "date": "2026-04-20"
+    },
+    {
+      "scenario_id": "SIM-009-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1013",
+      "day": 53,
+      "date": "2026-04-24"
+    },
+    {
+      "scenario_id": "SIM-010-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1015",
+      "day": 46,
+      "date": "2026-04-17"
+    },
+    {
+      "scenario_id": "SIM-011-legit_overtime",
+      "type": "legit_overtime",
+      "malicious": false,
+      "employee_id": "EMP-1014",
+      "day": 57,
+      "date": "2026-04-28"
+    },
+    {
+      "scenario_id": "SIM-012-legit_support",
+      "type": "legit_support",
+      "malicious": false,
+      "employee_id": "EMP-1012",
+      "day": 21,
+      "date": "2026-03-23"
+    },
+    {
+      "scenario_id": "SIM-013-legit_support",
+      "type": "legit_support",
+      "malicious": false,
+      "employee_id": "EMP-1012",
+      "day": 13,
+      "date": "2026-03-15"
+    },
+    {
+      "scenario_id": "SIM-014-legit_support",
+      "type": "legit_support",
+      "malicious": false,
+      "employee_id": "EMP-1015",
+      "day": 31,
+      "date": "2026-04-02"
+    },
+    {
+      "scenario_id": "SIM-015-legit_support",
+      "type": "legit_support",
+      "malicious": false,
+      "employee_id": "EMP-1012",
+      "day": 42,
+      "date": "2026-04-13"
+    },
+    {
+      "scenario_id": "SIM-016-legit_support",
+      "type": "legit_support",
+      "malicious": false,
+      "employee_id": "EMP-1014",
+      "day": 37,
+      "date": "2026-04-08"
+    },
+    {
+      "scenario_id": "SIM-017-legit_support",
+      "type": "legit_support",
+      "malicious": false,
+      "employee_id": "EMP-1013",
+      "day": 49,
+      "date": "2026-04-20"
+    },
+    {
+      "scenario_id": "SIM-018-legit_support",
+      "type": "legit_support",
+      "malicious": false,
+      "employee_id": "EMP-1013",
+      "day": 59,
+      "date": "2026-04-30"
+    },
+    {
+      "scenario_id": "SIM-019-legit_support",
+      "type": "legit_support",
+      "malicious": false,
+      "employee_id": "EMP-1016",
+      "day": 49,
+      "date": "2026-04-20"
+    },
+    {
+      "scenario_id": "SIM-020-legit_support",
+      "type": "legit_support",
+      "malicious": false,
+      "employee_id": "EMP-1014",
+      "day": 52,
+      "date": "2026-04-23"
+    },
+    {
+      "scenario_id": "SIM-021-legit_bulk",
+      "type": "legit_bulk",
+      "malicious": false,
+      "employee_id": "EMP-1022",
+      "day": 8,
+      "date": "2026-03-10"
+    },
+    {
+      "scenario_id": "SIM-022-legit_bulk",
+      "type": "legit_bulk",
+      "malicious": false,
+      "employee_id": "EMP-1017",
+      "day": 16,
+      "date": "2026-03-18"
+    },
+    {
+      "scenario_id": "SIM-023-legit_bulk",
+      "type": "legit_bulk",
+      "malicious": false,
+      "employee_id": "EMP-1021",
+      "day": 8,
+      "date": "2026-03-10"
+    },
+    {
+      "scenario_id": "SIM-024-legit_bulk",
+      "type": "legit_bulk",
+      "malicious": false,
+      "employee_id": "EMP-1022",
+      "day": 36,
+      "date": "2026-04-07"
+    },
+    {
+      "scenario_id": "SIM-025-legit_bulk",
+      "type": "legit_bulk",
+      "malicious": false,
+      "employee_id": "EMP-1017",
+      "day": 57,
+      "date": "2026-04-28"
+    },
+    {
+      "scenario_id": "SIM-026-legit_bulk",
+      "type": "legit_bulk",
+      "malicious": false,
+      "employee_id": "EMP-1023",
+      "day": 45,
+      "date": "2026-04-16"
+    },
+    {
+      "scenario_id": "SIM-027-legit_bulk",
+      "type": "legit_bulk",
+      "malicious": false,
+      "employee_id": "EMP-1020",
+      "day": 53,
+      "date": "2026-04-24"
+    },
+    {
+      "scenario_id": "SIM-028-legit_untagged_late",
+      "type": "legit_untagged_late",
+      "malicious": false,
+      "employee_id": "EMP-1023",
+      "day": 30,
+      "date": "2026-04-01"
+    },
+    {
+      "scenario_id": "SIM-029-legit_untagged_late",
+      "type": "legit_untagged_late",
+      "malicious": false,
+      "employee_id": "EMP-1013",
+      "day": 39,
+      "date": "2026-04-10"
+    },
+    {
+      "scenario_id": "SIM-030-legit_untagged_late",
+      "type": "legit_untagged_late",
+      "malicious": false,
+      "employee_id": "EMP-1010",
+      "day": 45,
+      "date": "2026-04-16"
+    },
+    {
+      "scenario_id": "SIM-031-legit_untagged_late",
+      "type": "legit_untagged_late",
+      "malicious": false,
+      "employee_id": "EMP-1002",
+      "day": 56,
+      "date": "2026-04-27"
+    },
+    {
+      "scenario_id": "SIM-032-legit_new_device",
+      "type": "legit_new_device",
+      "malicious": false,
+      "employee_id": "EMP-1005",
+      "day": 23,
+      "date": "2026-03-25"
+    },
+    {
+      "scenario_id": "SIM-033-legit_new_device",
+      "type": "legit_new_device",
+      "malicious": false,
+      "employee_id": "EMP-1005",
+      "day": 38,
+      "date": "2026-04-09"
+    },
+    {
+      "scenario_id": "SIM-034-legit_new_device",
+      "type": "legit_new_device",
+      "malicious": false,
+      "employee_id": "EMP-1002",
+      "day": 57,
+      "date": "2026-04-28"
+    },
+    {
+      "scenario_id": "SIM-035-legit_new_device",
+      "type": "legit_new_device",
+      "malicious": false,
+      "employee_id": "EMP-1004",
+      "day": 45,
+      "date": "2026-04-16"
+    },
+    {
+      "scenario_id": "SIM-036-off_hours_login",
+      "type": "off_hours_login",
+      "malicious": true,
+      "employee_id": "EMP-1020",
+      "day": 43,
+      "date": "2026-04-14"
+    },
+    {
+      "scenario_id": "SIM-037-unrelated_access",
+      "type": "unrelated_access",
+      "malicious": true,
+      "employee_id": "EMP-1009",
+      "day": 43,
+      "date": "2026-04-14"
+    },
+    {
+      "scenario_id": "SIM-038-large_download",
+      "type": "large_download",
+      "malicious": true,
+      "employee_id": "EMP-1008",
+      "day": 38,
+      "date": "2026-04-09"
+    },
+    {
+      "scenario_id": "SIM-039-full_chain",
+      "type": "full_chain",
+      "malicious": true,
+      "employee_id": "EMP-1003",
+      "day": 36,
+      "date": "2026-04-07"
+    },
+    {
+      "scenario_id": "SIM-040-full_chain",
+      "type": "full_chain",
+      "malicious": true,
+      "employee_id": "EMP-1019",
+      "day": 51,
+      "date": "2026-04-22"
+    },
+    {
+      "scenario_id": "SIM-041-full_chain",
+      "type": "full_chain",
+      "malicious": true,
+      "employee_id": "EMP-1019",
+      "day": 45,
+      "date": "2026-04-16"
+    },
+    {
+      "scenario_id": "SIM-042-full_chain",
+      "type": "full_chain",
+      "malicious": true,
+      "employee_id": "EMP-1010",
+      "day": 59,
+      "date": "2026-04-30"
+    },
+    {
+      "scenario_id": "SIM-043-off_hours_login",
+      "type": "off_hours_login",
+      "malicious": true,
+      "employee_id": "EMP-1012",
+      "day": 53,
+      "date": "2026-04-24"
+    },
+    {
+      "scenario_id": "SIM-044-off_hours_login",
+      "type": "off_hours_login",
+      "malicious": true,
+      "employee_id": "EMP-1006",
+      "day": 57,
+      "date": "2026-04-28"
+    },
+    {
+      "scenario_id": "SIM-045-unrelated_access",
+      "type": "unrelated_access",
+      "malicious": true,
+      "employee_id": "EMP-1012",
+      "day": 51,
+      "date": "2026-04-22"
+    },
+    {
+      "scenario_id": "SIM-046-unrelated_access",
+      "type": "unrelated_access",
+      "malicious": true,
+      "employee_id": "EMP-1008",
+      "day": 57,
+      "date": "2026-04-28"
+    },
+    {
+      "scenario_id": "SIM-047-search_burst",
+      "type": "search_burst",
+      "malicious": true,
+      "employee_id": "EMP-1022",
+      "day": 46,
+      "date": "2026-04-17"
+    },
+    {
+      "scenario_id": "SIM-048-search_burst",
+      "type": "search_burst",
+      "malicious": true,
+      "employee_id": "EMP-1011",
+      "day": 51,
+      "date": "2026-04-22"
+    },
+    {
+      "scenario_id": "SIM-049-large_download",
+      "type": "large_download",
+      "malicious": true,
+      "employee_id": "EMP-1017",
+      "day": 59,
+      "date": "2026-04-30"
+    },
+    {
+      "scenario_id": "SIM-050-large_download",
+      "type": "large_download",
+      "malicious": true,
+      "employee_id": "EMP-1021",
+      "day": 59,
+      "date": "2026-04-30"
+    },
+    {
+      "scenario_id": "SIM-051-unusual_privileged",
+      "type": "unusual_privileged",
+      "malicious": true,
+      "employee_id": "EMP-1015",
+      "day": 57,
+      "date": "2026-04-28"
+    },
+    {
+      "scenario_id": "SIM-052-unusual_privileged",
+      "type": "unusual_privileged",
+      "malicious": true,
+      "employee_id": "EMP-1011",
+      "day": 53,
+      "date": "2026-04-24"
+    },
+    {
+      "scenario_id": "SIM-053-failed_then_sensitive",
+      "type": "failed_then_sensitive",
+      "malicious": true,
+      "employee_id": "EMP-1010",
+      "day": 52,
+      "date": "2026-04-23"
+    },
+    {
+      "scenario_id": "SIM-054-failed_then_sensitive",
+      "type": "failed_then_sensitive",
+      "malicious": true,
+      "employee_id": "EMP-1013",
+      "day": 50,
+      "date": "2026-04-21"
+    },
+    {
+      "scenario_id": "SIM-055-unusual_resource",
+      "type": "unusual_resource",
+      "malicious": true,
+      "employee_id": "EMP-1019",
+      "day": 46,
+      "date": "2026-04-17"
+    },
+    {
+      "scenario_id": "SIM-056-unusual_resource",
+      "type": "unusual_resource",
+      "malicious": true,
+      "employee_id": "EMP-1001",
+      "day": 51,
+      "date": "2026-04-22"
+    },
+    {
+      "scenario_id": "SIM-057-full_chain",
+      "type": "full_chain",
+      "malicious": true,
+      "employee_id": "EMP-1003",
+      "day": 51,
+      "date": "2026-04-22",
+      "showcase": true
+    }
+  ],
+  "notice": "SYNTHETIC DATA - not real bank, employee or customer data."
+}

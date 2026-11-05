@@ -1,0 +1,11 @@
+2026-10-25 23:41:26.701 Uvicorn server started on 127.0.0.1:8501
+C:\Users\yoges\OneDrive\Desktop\forensic\dashboard\views.py:214: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  dd = daily.merge(ad, on="d", how="left").fillna({"alerts": 0})
+C:\Users\yoges\OneDrive\Desktop\forensic\dashboard\views.py:266: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  rr = rr.merge(ra, on="role", how="left").fillna({"alerts": 0})
+C:\Users\yoges\OneDrive\Desktop\forensic\dashboard\views.py:214: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  dd = daily.merge(ad, on="d", how="left").fillna({"alerts": 0})
+C:\Users\yoges\OneDrive\Desktop\forensic\dashboard\views.py:266: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  rr = rr.merge(ra, on="role", how="left").fillna({"alerts": 0})
+C:\Users\yoges\OneDrive\Desktop\forensic\dashboard\views.py:439: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df = emps.merge(ml, on="employee_id", how="left").merge(ag, on="employee_id", how="left").fillna({"ml_days": 0, "alerts": 0, "max_risk": 0, "avg_risk": 0})
